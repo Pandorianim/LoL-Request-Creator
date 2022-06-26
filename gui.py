@@ -383,7 +383,7 @@ if __name__ == "__main__":
     root.option_add("*font", "ms_serif 12")
     root.resizable(True, True)
     root.minsize(920, 540)
-    root.iconphoto(False, PhotoImage(file=resource_path("images\logo2.png")))
+    root.iconphoto(False, PhotoImage(file=resource_path("images\logoapi.png")))
     style = ttk.Style(root)
     style.theme_use("alt")
     mp = GUI(root)
